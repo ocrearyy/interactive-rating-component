@@ -1,0 +1,29 @@
+body {
+    width: 375px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400, 700;
+    background-color: #000;
+}
+
+p {
+    font-size: 15px;
+}
+
+.rating-content{
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin: auto;  
+  width: 50%; */
+  /* padding: 10px; */
+  background-color: #212832;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.thank-you-content {
+  display: none;
+}
