@@ -15,7 +15,7 @@
 
   <!-- Rating state start -->
 
-<Section class="rating-content">
+<Section id="rating-section" class="rating-content">
   <div id="circle">
     <!-- <img src="images/icon-star.svg" alt=""> -->
   </div>
@@ -28,23 +28,25 @@
     <li class="ratings">4</li>
     <li class="ratings">5</li>
   </ul>
-  <button class="btn">SUBMIT</button>
+  <button  onclick="displaypopup()" class="btn">SUBMIT</button>
 </Section>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-<Section class="thank-you-content">
-  <img src="images/illustration-thank-you.svg" alt="">
-  <h2>You selected <!-- Add rating here --> out of 5</h2>
-  <h3>Thank you!</h3>
-  <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+<Section id="popup" class="rating-content">
+  <img id="thanks" src="images/illustration-thank-you.svg" alt="">
+  <h2 class="popup-rating">
+    <!-- Add rating here --> 
+  </h2>
+  <h3 id="popup-main-text">Thank you!</h3>
+  <p id="popup-paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
 </Section>
 
   <!-- Thank you state end -->
 
 
-
+  <script src="app.js"></script>
 </body>
 </html>

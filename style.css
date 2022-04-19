@@ -61,6 +61,12 @@ p {
   text-align: center;
   color: lightgray;
   line-height: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.ratings:hover {
+  background-color: hsl(25, 97%, 53%);
 }
 
 .btn {
@@ -74,6 +80,28 @@ p {
   background-color: hsl(25, 97%, 53%);
 }
 
-.thank-you-content {
+#popup {
   display: none;
+}
+
+#thanks {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#popup-main-text {
+  color: white;
+  text-align: center;
+}
+
+#popup-paragraph {
+  color: lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 30px;
 }
