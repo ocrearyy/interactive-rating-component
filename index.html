@@ -3,47 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <!-- Rating state start -->
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
+<Section id="rating-section" class="rating-content">
+  <div id="circle">
+    <!-- <img src="images/icon-star.svg" alt=""> -->
+  </div>
+  <h1 class="main-text">How did we do?</h1>
+  <p class="main-paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering! </p>
+    <form class="rating-container">
+      <button id="one" class="list-btn active" onclick="rating1()" value="1" type="button">1</button>
+      <button id="two" class="list-btn active" onclick="rating2()" value="2" type="button">2</button>
+      <button id="three" class="list-btn active" onclick="rating3()" value="3" type="button">3</button>
+      <button id="four" class="list-btn active" onclick="rating4()" value="4" type="button">4</button>
+      <button id="five" class="list-btn active" onclick="rating5()" value="5" type="button">5</button>
+</form>
+  <button  onclick="displaypopup()" class="btn">SUBMIT</button>
+</Section>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+<Section id="popup" class="rating-content">
+  <img id="thanks" src="images/illustration-thank-you.svg" alt="">
+  <h2 class="popup-rating">
+    <!-- Add rating here --> 
+  </h2>
+  <h3 id="popup-main-text">Thank you!</h3>
+  <p id="popup-paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+</Section>
 
   <!-- Thank you state end -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>

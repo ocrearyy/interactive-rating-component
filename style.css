@@ -1,0 +1,132 @@
+body {
+    width: 375px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400, 700;
+    background-color: #000;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+.rating-content{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #212832;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#circle {
+  background: #273039;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-image: url(images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-text {
+  color: white;
+}
+
+.main-paragraph {
+  color: lightgray;
+  font-size: 12px;
+  line-height: 20px;
+  padding-right: 10px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0.01px;
+  margin-top: 30px;
+}
+
+.ratings {
+  list-style: none;
+}
+
+.highlight{
+  background-color: orange;
+}
+
+.btn {
+  margin-top: 15px;
+  border-radius: 50px;
+  font-size: large;
+  width: 100%;
+  margin-bottom: 20px;
+  color: lightgray;
+  padding: 10px;
+  background-color: hsl(25, 97%, 53%);
+}
+
+#popup {
+  display: none;
+}
+
+#thanks {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.popup-rating {
+  color:hsl(25, 97%, 53%);
+  font-size: 12px;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+  background: #273039;
+  padding: 5px;
+}
+
+#popup-main-text {
+  color: white;
+  text-align: center;
+}
+
+#popup-paragraph {
+  color: lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.list-btn {
+  list-style: none;
+  background: #273039;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: lightgray;
+  line-height: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.list-btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
