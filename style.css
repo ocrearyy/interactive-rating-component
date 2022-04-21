@@ -84,6 +84,18 @@ p {
   width: 50%;
 }
 
+.popup-rating {
+  color:hsl(25, 97%, 53%);
+  font-size: 12px;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  background: #273039;
+  padding: 5px;
+}
+
 #popup-main-text {
   color: white;
   text-align: center;

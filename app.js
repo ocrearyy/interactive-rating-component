@@ -9,6 +9,8 @@ function rating1(){
     document.querySelector('#three').style.backgroundColor = '#273039';
     document.querySelector('#four').style.backgroundColor = '#273039';
     document.querySelector('#five').style.backgroundColor = '#273039';
+    const msg = document.querySelector('.popup-rating');
+    msg.textContent = 'You selected 1 out of 5';
 }
 
 function rating2(){
