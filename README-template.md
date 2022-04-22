@@ -24,13 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![e54](https://user-images.githubusercontent.com/40554384/164604477-89b381ab-ba4f-4a78-a71d-5c66a13f1d24.PNG)
+
 
 
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://oshanedesign.github.io/interactive-rating-component/)
+- Live Site URL: [Click here](https://oshanedesign.github.io/interactive-rating-component/)
 
 
 ### Built with
