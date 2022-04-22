@@ -50,4 +50,4 @@ Users should be able to:
 - GitHub: [@githubhandle](https://github.com/oshanedesign) 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/oshane-design-ab2631237)
 - Twitter: [@twitterhandle](https://twitter.com/oshanedesign)
-- YouTube: [@youtube](https://www.youtube.com/channelUCKEzfINidt1ob7xTOwIS_cA)
+- YouTube: [@youtube](https://www.youtube.com/channel/UCKEzfINidt1ob7xTOwIS_cA)
