@@ -52,3 +52,21 @@ function rating5() {
   const msg = document.querySelector('.popup-rating');
   msg.textContent = 'You selected 5 out of 5';
 }
+
+const btn1 = document.querySelector('#one');
+btn1.addEventListener('click', rating1);
+
+const btn2 = document.querySelector('#two');
+btn2.addEventListener('click', rating2);
+
+const btn3 = document.querySelector('#three');
+btn3.addEventListener('click', rating3);
+
+const btn4 = document.querySelector('#four');
+btn4.addEventListener('click', rating4);
+
+const btn5 = document.querySelector('#five');
+btn5.addEventListener('click', rating5);
+
+const submitBtn = document.querySelector('#popup');
+submitBtn.addEventListener('click', displaypopup);
