@@ -55,9 +55,10 @@ function rating5() {
 
 const allRatings = [rating1, rating2, rating3, rating4, rating5];
 
+
 document.querySelectorAll('.list-btn').forEach((btn, i) => {
   btn.addEventListener('click', allRatings[i]);
 });
 
-const submitBtn = document.querySelector('#popup');
+const submitBtn = document.querySelector('.btn');
 submitBtn.addEventListener('click', displaypopup);
