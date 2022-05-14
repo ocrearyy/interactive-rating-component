@@ -1,26 +1,11 @@
 # Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a interactive rating component that allows users to:
 
-## Table of contents
-
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-- [Author](#author)
-
-
-
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
@@ -43,11 +28,40 @@ Users should be able to:
 - VS Code
 - JavaScript
 
+### Getting Started
 
-## Author
+To get a local copy up and running follow these simple example steps.
 
-- Website - [OshaneDesign](https://oshanedesign.github.io/Portfolio/)
-- GitHub: [@githubhandle](https://github.com/oshanedesign) 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oshane-design-ab2631237)
+1. git clone git@github.com:oshanedesign/to-Do-List.git
+2. Cd into to-Do-List
+3. Run npm install to get project running locally
+4. Run npm start to get project running locally
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@oshanedesign](https://github.com/oshanedesign)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ocreary/)
 - Twitter: [@twitterhandle](https://twitter.com/oshanedesign)
-- YouTube: [@youtube](https://www.youtube.com/channel/UCKEzfINidt1ob7xTOwIS_cA)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
