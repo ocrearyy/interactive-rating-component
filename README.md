@@ -1,4 +1,4 @@
-# Interactive rating component solution
+# Interactive rating component
 
 This is a interactive rating component that allows users to:
 
@@ -32,10 +32,9 @@ This is a interactive rating component that allows users to:
 
 To get a local copy up and running follow these simple example steps.
 
-1. git clone git@github.com:oshanedesign/to-Do-List.git
-2. Cd into to-Do-List
-3. Run npm install to get project running locally
-4. Run npm start to get project running locally
+1. git clone git@github.com:oshanedesign/interactive-rating-component.git
+2. Cd into interactive-rating-component
+3. Run npm start to get project running locally
 
 ## Authors
 
